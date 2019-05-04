@@ -100,7 +100,7 @@ public class UserBookingActivity extends AppCompatActivity implements
                 srcSelected = parent.getItemAtPosition(position).toString();
 
                 // Showing selected spinner item
-                Toast.makeText(parent.getContext(), "Selected: " + srcSelected, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(parent.getContext(), "Selected: " + srcSelected, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -163,7 +163,7 @@ public class UserBookingActivity extends AppCompatActivity implements
                 destSelected = parent.getItemAtPosition(position).toString();
 
                 // Showing selected spinner item
-                Toast.makeText(parent.getContext(), "Selected: " + destSelected, Toast.LENGTH_SHORT).show();
+               // Toast.makeText(parent.getContext(), "Selected: " + destSelected, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -226,7 +226,7 @@ public class UserBookingActivity extends AppCompatActivity implements
                 carTypeSelected = parent.getItemAtPosition(position).toString();
 
                 // Showing selected spinner item
-                Toast.makeText(parent.getContext(), "Selected: " + carTypeSelected, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(parent.getContext(), "Selected: " + carTypeSelected, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -338,7 +338,7 @@ public class UserBookingActivity extends AppCompatActivity implements
                         carTypeSelected, "null");
 
                 Toast.makeText(getApplicationContext(), "Booking added successfully! Wait for Admin to confirm.", Toast.LENGTH_LONG).show();
-                dB.getFirestoreInstance().collection("AkhileshUserActivityBookings").document(booking.getId()).set(booking);
+                dB.getFirestoreInstance().collection("bookings").document(booking.getId()).set(booking);
             }
         }
     }
