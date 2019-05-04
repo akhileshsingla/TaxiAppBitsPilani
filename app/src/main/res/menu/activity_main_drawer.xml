@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/users_nav"
+            android:icon="@drawable/ic_users"
+            android:title="@string/User_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_drivers"
+            android:title="@string/driver_" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_owners"
+            android:title="@string/owner" />
+        <item
+            android:id="@+id/nav_station"
+            android:icon="@drawable/ic_station"
+            android:title="@string/station" />
+        <item
+            android:id="@+id/nav_raise"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/Raise_c" />
+        <item
+            android:id="@+id/nav_changepassword"
+            android:icon="@drawable/ic_changepassword"
+            android:title="@string/ChangePassword" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/Logout" />
+    </group>
+
+</menu>

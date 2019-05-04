@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BITS Pilani TaxiApp</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="user_type">
+        <item>Choose a user type</item>
+        <item>Admin</item>
+        <item>User</item>
+        <item>Driver</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Admin</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="User_home">Users</string>
+    <string name="driver_">Drivers</string>
+    <string name="owner">Owners</string>
+    <string name="station">Stations</string>
+    <string name="Raise_c">Raise Complain</string>
+    <string name="ChangePassword">Change Password</string>
+    <string name="Logout">Logout</string>
+</resources>
